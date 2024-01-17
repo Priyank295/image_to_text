@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639704619356",
+    "project_id": "imagetotext-18cfd",
+    "storage_bucket": "imagetotext-18cfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639704619356:android:3842770740a30dcc644999",
+        "android_client_info": {
+          "package_name": "com.example.image_to_text"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjPgRLqCp8BLpL5GiH6NA6Pz0Yc5kiqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
