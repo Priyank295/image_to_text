@@ -75,3 +75,27 @@ Future<void> textToSpeech(String text, context) async {
     });
   });
 }
+
+Future<dynamic> signInWithGoogle() async {
+  try {
+    final GoogleSignInAccount? googleUser = await GoogleSignIn(
+      scopes: [
+        'https://www.googleapis.com/auth/cloud-platform',
+        'https://www.googleapis.com/auth/cloud-vision',
+      ],
+    ).signIn();
+
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
+
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth?.accessToken,
+      idToken: googleAuth?.idToken,
+    );
+
+    return await FirebaseAuth.instance.signInWithCredential(credential);
+  } on Exception catch (e) {
+    // TODO
+    print('exception->$e');
+  }
+}
