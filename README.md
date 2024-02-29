@@ -4,12 +4,20 @@ The project aims at developing a smart eye called: E - Cakṣu, which can be use
 
 # Raspberry PI Project 
 
-[View Repository](https://github.com/Nihal4777/E-chaksu)
+**Visit Raspberry Pi Project here:** [View Repository](https://github.com/Nihal4777/E-chaksu)
 
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+### Instructions:
+1. Create the build for flutter application
+2. Install the application on your android device
+3. Start the application and give the necessary permissions.
+4. Authenticate via Google OAuth using the account which is authorized to use Google Cloud.
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
